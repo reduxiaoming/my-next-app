@@ -1,51 +1,39 @@
 import express from 'express';
-import next from 'next';
 import cors from 'cors';
 import routes from './routes/routes';
-import logRoutes from './routes/logRoutes'; // 引入日志路由
-import createScreenLogger from './utils/logger'; // 更新路径
+import logRoutes from './routes/logRoutes';
+import { PORT, ORIGIN } from './utils/config';  
+import createScreenLogger from './utils/logger';
 import sequelize from './dbexec/dbaccess';
-import { CORS_ORIGIN } from './utils/config'; // 引入配置
 
-const dev = process.env.NODE_ENV !== 'production';
-const app = next({ dev, dir: './frontend' });
-const handle = app.getRequestHandler();
+// 创建日志记录器
+const logger = createScreenLogger('server', true);
 
-const logger = createScreenLogger('server', true); // 创建 logger 实例
+// 初始化Express应用
+const app = express();
 
-// 同步模型到数据库
+// 配置CORS
+app.use(cors({ origin: ORIGIN }));
+
+// 解析JSON请求体
+app.use(express.json());
+
+// 配置路由
+app.use('/api', routes);
+app.use('/api', logRoutes);
+
+// 同步数据库并启动服务器
 sequelize.sync()
   .then(() => {
-    console.log('Database & tables created!');
     logger.info('Database & tables created!');
+    console.log('Database & tables created!');
+    
+    app.listen(PORT, () => {
+      logger.info(`Server is running on port ${PORT}`);
+      console.log(`Server is running on port ${PORT}`);
+    });
   })
-  .catch((err: any) => {
-    console.error('Unable to create tables:', err);
-    logger.error('Unable to create tables:', err);
+  .catch(err => {
+    logger.error(`Unable to create tables: ${err.message}`);
+    console.error(`Unable to create tables: ${err.message}`);
   });
-
-app.prepare().then(() => {
-  const server = express();
-
-  // 使用 cors 中间件
-  server.use(cors({
-    origin: CORS_ORIGIN // 使用从配置中读取的值
-  }));
-
-  server.use(express.json());
-  server.use('/api', routes);
-  server.use('/api', logRoutes); // 挂载日志路由到 /api 路径下
-
-  server.all('*', (req, res) => {
-    return handle(req, res);
-  });
-
-  server.listen(3001, (err?: any) => {
-    if (err) {
-      logger.error(err.stack || err);
-      throw err;
-    }
-    console.log('> Ready on http://localhost:3001');
-    logger.info('> Ready on http://localhost:3001');
-  });
-});

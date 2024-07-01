@@ -8,3 +8,7 @@
 2024-07-01 16:15:22 [backend] info: [selectApi] Retrieved messages from database at 2024-07-01T07:15:22.968Z
 2024-07-01 16:15:23 [backend] info: [selectApi] Received GET request on /api/select at 2024-07-01T07:15:23.106Z
 2024-07-01 16:15:23 [backend] info: [selectApi] Retrieved messages from database at 2024-07-01T07:15:23.110Z
+2024-07-01 16:56:36 [backend] info: [selectApi] Received GET request on /api/select at 2024-07-01T07:56:36.150Z
+2024-07-01 16:56:36 [backend] info: [selectApi] Retrieved messages from database at 2024-07-01T07:56:36.341Z
+2024-07-01 16:58:20 [backend] info: [selectApi] Received GET request on /api/select at 2024-07-01T07:58:20.361Z
+2024-07-01 16:58:20 [backend] info: [selectApi] Retrieved messages from database at 2024-07-01T07:58:20.549Z

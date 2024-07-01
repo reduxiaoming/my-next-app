@@ -1,5 +1,4 @@
-
 node_modules
+logs
 .next
-.env
-        
+logs/2024-07-01_insert.log

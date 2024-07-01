@@ -48,7 +48,7 @@
   "compounds": [
     {
       "name": "Full Stack",
-      "configurations": ["Next.js: Frontend", "Node.js: Backend"]
+      "configurations": ["Node.js: Backend", "Next.js: Frontend"]
     }
   ]
 }
