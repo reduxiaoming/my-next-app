@@ -36,5 +36,3 @@ export const insertApi = async (req: Request, res: Response) => {
     res.status(400).json({ error: 'Message and userId are required' });
   }
 };
-
-export default insertApi;
