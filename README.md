@@ -21,8 +21,9 @@
     </div>
     <p dir="auto">首先，从 GitHub 克隆项目仓库：</p>
     <pre>
-      <code>git clone https://github.com/xiaoxiaoxiaoxiaoming/my-next-app.git<br><br/>cd my-next-app</code>
-    </pre>
+      <code>git clone https://github.com/xiaoxiaoxiaoxiaoming/my-next-app.git
+      cd my-next-app</code>
+      </pre>
     <div class="markdown-heading" dir="auto">
         <h2 tabindex="-1" class="heading-element" dir="auto">环境配置</h2>
     </div>
