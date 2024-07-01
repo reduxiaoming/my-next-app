@@ -15,6 +15,7 @@
         <li>
             <strong>PostgreSQL</strong>: 需要安装 PostgreSQL 数据库。可以从
             <a href="https://www.postgresql.org/download/" rel="nofollow">PostgreSQL 官方网站</a>下载并安装。</li>
+        <li><strong>IDE</strong>:使用vscode和A5M2进行开发</li>
     </ol>
     <div class="markdown-heading">
         <h2 class="heading-element">克隆项目</h2>
