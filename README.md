@@ -20,8 +20,8 @@
         <h2 tabindex="-1" class="heading-element" dir="auto">克隆项目</h2>
     </div>
     <p dir="auto">首先，从 GitHub 克隆项目仓库：</p>
-    <pre><code>git <span>clone</span> https://github.com/xiaoxiaoxiaoxiaoming/my-next-app.git
-cd  my-next-app</code></div></div></pre>
+    <pre><code>git clone https://github.com/xiaoxiaoxiaoxiaoming/my-next-app.git
+cd my-next-app</code></pre>
     <div class="markdown-heading" dir="auto">
         <h2 tabindex="-1" class="heading-element" dir="auto">环境配置</h2>
     </div>
