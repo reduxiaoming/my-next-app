@@ -1,17 +1,11 @@
-// frontend/pages/insert.tsx
 import React, { useEffect, useState } from 'react';
+import Head from 'next/head';
+import '../styles/Insert.module.css';
 import logToServer from '../utils/logger';
 import { API_BASE_URL } from '../utils/config';
 
-interface MessageResponse {
-  id: number;
-  message: string;
-  userId: string;
-  timestamp: string;
-}
-
-const Insert = () => {
-  const [response, setResponse] = useState<MessageResponse | null>(null);
+const Insert: React.FC = () => {
+  const [response, setResponse] = useState<any>(null);
 
   useEffect(() => {
     const logFuncName = 'useEffect';
@@ -61,7 +55,14 @@ const Insert = () => {
     }
   }, [response]);
 
-  return <div id="insertContainer"></div>;
+  return (
+    <>
+      <Head>
+        <title>Insert Page</title>
+      </Head>
+      <div id="insertContainer" className="container"></div>
+    </>
+  );
 };
 
 export default Insert;

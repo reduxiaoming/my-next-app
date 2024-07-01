@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/Select.module.css">
-  <title>Select Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Page</title>
 </head>
+
 <body>
-  <div class="container">
-    <h1>Messages</h1>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Content</th>
-          <th>User ID</th>
-          <th>Timestamp</th>
-        </tr>
-      </thead>
-      <tbody id="messageTableBody"></tbody>
-    </table>
-    <div class="navigation">
-      <a href="/">Go to Home</a>
-      <a href="/insert">Go to Insert</a>
+    <div id="selectContainer" class="container">
+        <h1>Messages</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Content</th>
+                    <th>User ID</th>
+                    <th>Timestamp</th>
+                </tr>
+            </thead>
+            <tbody id="messageTableBody">
+                <!-- Messages will be dynamically inserted here -->
+            </tbody>
+        </table>
+        <div class="navigation mt-4">
+            <a href="/" class="btn btn-link">Go to Home</a>
+            <a href="/insert" class="btn btn-link">Go to Insert</a>
+        </div>
     </div>
-  </div>
 </body>
+
 </html>

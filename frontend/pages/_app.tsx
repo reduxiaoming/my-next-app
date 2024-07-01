@@ -1,9 +1,11 @@
 import React from 'react';
-import App from 'next/app';
+import App, { AppProps, AppContext } from 'next/app';
 import Head from 'next/head';
+import 'bootstrap/dist/css/bootstrap.min.css'; // 导入 Bootstrap 样式
+import '../styles/globals.css'; // 导入全局样式
 
-class MyApp extends App {
-  static async getInitialProps({ Component, ctx }: any) {
+class MyApp extends App<AppProps> {
+  static async getInitialProps({ Component, ctx }: AppContext) {
     let pageProps = {};
 
     if (Component.getInitialProps) {

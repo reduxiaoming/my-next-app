@@ -12,6 +12,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "concurrently": "^7.0.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
