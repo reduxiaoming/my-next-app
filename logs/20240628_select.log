@@ -1,4 +1,0 @@
-2024-06-28T10:38:17.474Z [backend] info: [useEffect] Loaded select.html at 2024-06-28T10:38:17.468Z
-2024-06-28T10:38:17.498Z [backend] error: [fetchMessages] Error fetching data: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:38:17.495Z
-2024-06-28T10:38:34.078Z [backend] info: [useEffect] Loaded select.html at 2024-06-28T10:38:34.058Z
-2024-06-28T10:38:34.105Z [backend] error: [fetchMessages] Error fetching data: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:38:34.102Z
