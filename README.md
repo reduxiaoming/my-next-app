@@ -35,7 +35,7 @@ DATABASE_PORT=YOUR_DATABASE_PORT
 LOG_LEVEL=info
 PORT=3001
 ORIGIN=http://localhost:3000
-    </code><p dir="auto"><code>#frontend
+#frontend
 NODE_ENV=development
 API_BASE_URL=http://localhost:3001/api</code></p></div></div></pre>
     <p dir="auto">确保 PostgreSQL 数据库已经启动，并且上述配置与您的数据库设置相匹配。</p>
