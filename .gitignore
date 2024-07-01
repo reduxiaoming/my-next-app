@@ -1,4 +1,3 @@
 node_modules
-logs
 .next
-logs/2024-07-01_insert.log
+*.log
