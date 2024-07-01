@@ -59,12 +59,12 @@ API_BASE_URL=http://localhost:3001/api</code></pre>
     <ol>
         <li>启动后端：</li>
     </ol>
-<pre><code>cd  backend
+<pre><code>cd backend
 npx ts-node server.ts</code></pre>
     <ol start="2">
         <li>启动前端：</li>
     </ol>
-<pre><code>cd  frontend
+<pre><code>cd frontend
 npm run dev</code></pre>
     <div class="markdown-heading">
         <h3 class="heading-element">一起启动前后端</h3>
