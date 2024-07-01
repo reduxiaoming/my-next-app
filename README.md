@@ -1,7 +1,4 @@
 <div class="markdown prose w-full break-words dark:prose-invert light">
-  <p>Here's the content for the 
-    <code>README.md</code>file:
-  </p>
   <hr>
   <h1>My Next App</h1>
   <p>这是一个基于 Next.js 和 Node.js 的全栈项目，使用 PostgreSQL 作为数据库。以下是构建和运行该项目的详细步骤。</p>
