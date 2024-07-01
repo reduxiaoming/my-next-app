@@ -25,8 +25,7 @@ cd my-next-app</code></pre>
     <div class="markdown-heading">
         <h2 class="heading-element">环境配置</h2>
     </div>
-    <p>在项目根目录下确认 <code>.env
-</code>文件存在，如果不存在添加以下内容：</p>
+    <p>在项目根目录下确认 <code>.env</code>文件存在，如果不存在添加以下内容：</p>
 <pre><code>#backend
 DATABASE_USER=YOUR_DATABASE_USER
 DATABASE_HOST=YOUR_DATABASE_HOST
