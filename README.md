@@ -22,7 +22,7 @@
     <p>首先，从 GitHub 克隆项目仓库：</p>
 <pre><code>git clone https://github.com/xiaoxiaoxiaoxiaoming/my-next-app.git
 cd my-next-app</code></pre>
-    <div class="markdown-heading">
+    <div class="markdown-heading"> 
         <h2 class="heading-element">环境配置</h2>
     </div>
     <p>在项目根目录下确认 <code>.env</code>文件存在，如果不存在添加以下内容：</p>
