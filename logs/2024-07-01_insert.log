@@ -1,0 +1,7 @@
+2024-07-01 16:15:26 [frontend] info: [useEffect] Loaded insert.html at 2024-07-01T07:15:26.433Z
+2024-07-01 16:15:26 [frontend] info: [useEffect] Loaded insert.html at 2024-07-01T07:15:26.451Z
+2024-07-01 16:15:30 [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T07:15:30.700Z
+2024-07-01 16:15:30 [backend] info: [insertApi] Request body: {"message":"rrwr","userId":"vcvx"}
+2024-07-01 16:15:30 [backend] info: [insertApi] Message inserted with ID: 14 at 2024-07-01T07:15:30.831Z
+2024-07-01 16:15:30 [frontend] info: [handleSubmit] Submitted message: rrwr by user: vcvx at 2024-07-01T07:15:30.846Z
+2024-07-01 16:15:30 [frontend] info: [useEffect-response] Updated response at 2024-07-01T07:15:30.847Z

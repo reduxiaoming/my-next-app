@@ -1,0 +1,106 @@
+2024-07-01T01:23:01.609Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-07-01T01:23:01.601Z
+2024-07-01T01:23:21.058Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-07-01T01:23:21.066Z
+2024-07-01T01:23:57.280Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-07-01T01:23:57.291Z
+2024-07-01T01:24:13.735Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-07-01T01:24:13.745Z
+2024-07-01T01:25:28.584Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T01:25:28.576Z
+2024-07-01T01:25:32.115Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-07-01T01:25:32.123Z
+2024-07-01T01:28:11.445Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T01:28:11.424Z
+2024-07-01T01:28:15.588Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-07-01T01:28:15.593Z
+2024-07-01T01:31:13.708Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-07-01T01:31:13.702Z
+2024-07-01T01:31:22.730Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-07-01T01:31:22.727Z
+2024-07-01T01:33:09.480Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T01:33:09.465Z
+2024-07-01T01:33:15.230Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T01:33:15.230Z
+2024-07-01T01:33:15.232Z [backend] info: [insertApi] Request body: {"message":"的撒旦","userId":"dsada"}
+2024-07-01T01:33:15.233Z [backend] error: [insertApi] Error saving message to database: pool.connect is not a function
+2024-07-01T01:33:15.238Z [backend] info: [handleSubmit] Submitted message: 的撒旦 by user: dsada at 2024-07-01T01:33:15.242Z
+2024-07-01T01:33:15.246Z [backend] info: [useEffect-response] Updated response at 2024-07-01T01:33:15.242Z
+2024-07-01T01:35:14.363Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T01:35:14.336Z
+2024-07-01T01:35:18.537Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T01:35:18.537Z
+2024-07-01T01:35:18.538Z [backend] info: [insertApi] Request body: {"message":"额外企鹅去","userId":"dsdfs"}
+2024-07-01T01:35:18.539Z [backend] error: [insertApi] Error saving message to database: pool.connect is not a function
+2024-07-01T01:35:18.545Z [backend] info: [handleSubmit] Submitted message: 额外企鹅去 by user: dsdfs at 2024-07-01T01:35:18.556Z
+2024-07-01T01:35:18.549Z [backend] info: [useEffect-response] Updated response at 2024-07-01T01:35:18.557Z
+2024-07-01T01:35:57.543Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T01:35:57.543Z
+2024-07-01T01:35:57.544Z [backend] info: [insertApi] Request body: {"message":"额外企鹅去","userId":"dsdfs"}
+2024-07-01T01:36:20.530Z [backend] error: [insertApi] Error saving message to database: pool.connect is not a function
+2024-07-01T01:36:20.559Z [backend] info: [handleSubmit] Submitted message: 额外企鹅去 by user: dsdfs at 2024-07-01T01:36:20.553Z
+2024-07-01T01:36:20.580Z [backend] info: [useEffect-response] Updated response at 2024-07-01T01:36:20.555Z
+2024-07-01T01:36:26.248Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T01:36:26.248Z
+2024-07-01T01:36:26.249Z [backend] info: [insertApi] Request body: {"message":"额外企鹅去","userId":"dsdfs"}
+2024-07-01T01:36:29.639Z [backend] error: [insertApi] Error saving message to database: pool.connect is not a function
+2024-07-01T01:36:29.648Z [backend] info: [handleSubmit] Submitted message: 额外企鹅去 by user: dsdfs at 2024-07-01T01:36:29.653Z
+2024-07-01T01:36:29.655Z [backend] info: [useEffect-response] Updated response at 2024-07-01T01:36:29.654Z
+2024-07-01T01:36:48.720Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T01:36:48.705Z
+2024-07-01T01:36:50.440Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T01:36:50.440Z
+2024-07-01T01:36:50.442Z [backend] info: [insertApi] Request body: {"message":"321","userId":"321"}
+2024-07-01T01:36:55.709Z [backend] error: [insertApi] Error saving message to database: pool.connect is not a function
+2024-07-01T01:36:55.717Z [backend] info: [handleSubmit] Submitted message: 321 by user: 321 at 2024-07-01T01:36:55.722Z
+2024-07-01T01:36:55.722Z [backend] info: [useEffect-response] Updated response at 2024-07-01T01:36:55.723Z
+2024-07-01T01:37:16.761Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T01:37:16.761Z
+2024-07-01T01:37:16.762Z [backend] info: [insertApi] Request body: {"message":"321","userId":"321"}
+2024-07-01T01:37:18.657Z [backend] error: [insertApi] Error saving message to database: pool.connect is not a function
+2024-07-01T01:37:18.666Z [backend] info: [handleSubmit] Submitted message: 321 by user: 321 at 2024-07-01T01:37:18.671Z
+2024-07-01T01:37:18.671Z [backend] info: [useEffect-response] Updated response at 2024-07-01T01:37:18.672Z
+2024-07-01T01:38:50.492Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T01:38:50.461Z
+2024-07-01T01:38:55.424Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T01:38:55.424Z
+2024-07-01T01:38:55.425Z [backend] info: [insertApi] Request body: {"message":"fdsf","userId":"fdsfs"}
+2024-07-01T01:38:55.551Z [backend] error: [insertApi] Error saving message to database: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2024-07-01T01:38:55.559Z [backend] info: [handleSubmit] Submitted message: fdsf by user: fdsfs at 2024-07-01T01:38:55.556Z
+2024-07-01T01:38:55.564Z [backend] info: [useEffect-response] Updated response at 2024-07-01T01:38:55.557Z
+2024-07-01T01:39:05.044Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T01:39:05.044Z
+2024-07-01T01:39:05.045Z [backend] info: [insertApi] Request body: {"message":"fdsf","userId":"fdsfs"}
+2024-07-01T01:39:05.130Z [backend] error: [insertApi] Error saving message to database: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2024-07-01T01:39:05.135Z [backend] info: [handleSubmit] Submitted message: fdsf by user: fdsfs at 2024-07-01T01:39:05.133Z
+2024-07-01T01:39:05.140Z [backend] info: [useEffect-response] Updated response at 2024-07-01T01:39:05.134Z
+2024-07-01T01:40:25.208Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T01:40:25.180Z
+2024-07-01T02:26:51.241Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T02:26:51.220Z
+2024-07-01T02:26:54.134Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T02:26:54.134Z
+2024-07-01T02:26:54.135Z [backend] info: [insertApi] Request body: {"message":"还会","userId":"hgf"}
+2024-07-01T02:26:54.234Z [backend] error: [insertApi] Error saving message to database: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2024-07-01T02:26:54.241Z [backend] info: [handleSubmit] Submitted message: 还会 by user: hgf at 2024-07-01T02:26:54.251Z
+2024-07-01T02:26:54.245Z [backend] info: [useEffect-response] Updated response at 2024-07-01T02:26:54.252Z
+2024-07-01T02:28:28.416Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T02:28:28.395Z
+2024-07-01T02:28:33.627Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T02:28:33.627Z
+2024-07-01T02:28:33.628Z [backend] info: [insertApi] Request body: {"message":"的","userId":"3231"}
+2024-07-01T02:28:33.745Z [backend] error: [insertApi] Error saving message to database: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2024-07-01T02:28:33.752Z [backend] info: [handleSubmit] Submitted message: 的 by user: 3231 at 2024-07-01T02:28:33.751Z
+2024-07-01T02:28:33.755Z [backend] info: [useEffect-response] Updated response at 2024-07-01T02:28:33.751Z
+2024-07-01T02:29:42.572Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T02:29:42.557Z
+2024-07-01T02:29:43.318Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T02:29:43.317Z
+2024-07-01T02:29:47.414Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T02:29:47.414Z
+2024-07-01T02:29:47.415Z [backend] info: [insertApi] Request body: {"message":"发生的","userId":"fds"}
+2024-07-01T02:29:47.529Z [backend] error: [insertApi] Error saving message to database: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2024-07-01T02:29:47.534Z [backend] info: [handleSubmit] Submitted message: 发生的 by user: fds at 2024-07-01T02:29:47.537Z
+2024-07-01T02:29:47.537Z [backend] info: [useEffect-response] Updated response at 2024-07-01T02:29:47.537Z
+2024-07-01T02:30:07.714Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T02:30:07.714Z
+2024-07-01T02:30:07.715Z [backend] info: [insertApi] Request body: {"message":"发生的","userId":"fds"}
+2024-07-01T02:32:05.817Z [backend] error: [insertApi] Error saving message to database: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2024-07-01T02:32:05.827Z [backend] info: [handleSubmit] Submitted message: 发生的 by user: fds at 2024-07-01T02:32:05.822Z
+2024-07-01T02:32:05.833Z [backend] info: [useEffect-response] Updated response at 2024-07-01T02:32:05.823Z
+2024-07-01T02:32:31.546Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T02:32:31.546Z
+2024-07-01T02:32:31.547Z [backend] info: [insertApi] Request body: {"message":"发生的","userId":"fds"}
+2024-07-01T02:33:37.196Z [backend] error: [insertApi] Error saving message to database: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2024-07-01T02:33:37.203Z [backend] info: [handleSubmit] Submitted message: 发生的 by user: fds at 2024-07-01T02:33:37.200Z
+2024-07-01T02:33:37.207Z [backend] info: [useEffect-response] Updated response at 2024-07-01T02:33:37.201Z
+2024-07-01T02:33:42.413Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T02:33:42.413Z
+2024-07-01T02:33:42.414Z [backend] info: [insertApi] Request body: {"message":"发生的","userId":"fds"}
+2024-07-01T02:33:48.056Z [backend] error: [insertApi] Error saving message to database: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2024-07-01T02:33:48.063Z [backend] info: [handleSubmit] Submitted message: 发生的 by user: fds at 2024-07-01T02:33:48.060Z
+2024-07-01T02:33:48.067Z [backend] info: [useEffect-response] Updated response at 2024-07-01T02:33:48.060Z
+2024-07-01T02:33:52.353Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T02:33:52.353Z
+2024-07-01T02:33:52.354Z [backend] info: [insertApi] Request body: {"message":"发生的","userId":"fds"}
+2024-07-01T02:34:43.655Z [backend] error: [insertApi] Error saving message to database: SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+2024-07-01T02:34:43.662Z [backend] info: [handleSubmit] Submitted message: 发生的 by user: fds at 2024-07-01T02:34:43.659Z
+2024-07-01T02:34:43.665Z [backend] info: [useEffect-response] Updated response at 2024-07-01T02:34:43.660Z
+2024-07-01T02:40:18.293Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T02:40:18.263Z
+2024-07-01T02:40:20.749Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T02:40:20.749Z
+2024-07-01T02:40:20.750Z [backend] info: [insertApi] Request body: {"message":"dsa","userId":"dsa"}
+2024-07-01T02:40:20.871Z [backend] info: [insertApi] Message inserted with ID: 12 at 2024-07-01T02:40:20.871Z
+2024-07-01T02:40:20.876Z [backend] info: [handleSubmit] Submitted message: dsa by user: dsa at 2024-07-01T02:40:20.873Z
+2024-07-01T02:40:20.879Z [backend] info: [useEffect-response] Updated response at 2024-07-01T02:40:20.874Z
+2024-07-01T03:00:26.684Z [backend] info: [useEffect] Loaded insert.html at 2024-07-01T03:00:26.660Z
+2024-07-01T03:00:30.359Z [backend] info: [insertApi] Received POST request on /api/insert at 2024-07-01T03:00:30.359Z
+2024-07-01T03:00:30.360Z [backend] info: [insertApi] Request body: {"message":"的撒旦","userId":"呃3"}
+2024-07-01T03:00:30.471Z [backend] info: [insertApi] Message inserted with ID: 13 at 2024-07-01T03:00:30.471Z
+2024-07-01T03:00:30.476Z [backend] info: [handleSubmit] Submitted message: 的撒旦 by user: 呃3 at 2024-07-01T03:00:30.473Z
+2024-07-01T03:00:30.479Z [backend] info: [useEffect-response] Updated response at 2024-07-01T03:00:30.474Z

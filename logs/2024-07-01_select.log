@@ -1,0 +1,10 @@
+2024-07-01 16:15:21 [backend] info: [selectApi] Received GET request on /api/select at 2024-07-01T07:15:21.143Z
+2024-07-01 16:15:21 [backend] info: [selectApi] Retrieved messages from database at 2024-07-01T07:15:21.272Z
+2024-07-01 16:15:22 [backend] info: [selectApi] Received GET request on /api/select at 2024-07-01T07:15:22.646Z
+2024-07-01 16:15:22 [backend] info: [selectApi] Retrieved messages from database at 2024-07-01T07:15:22.650Z
+2024-07-01 16:15:22 [backend] info: [selectApi] Received GET request on /api/select at 2024-07-01T07:15:22.815Z
+2024-07-01 16:15:22 [backend] info: [selectApi] Retrieved messages from database at 2024-07-01T07:15:22.817Z
+2024-07-01 16:15:22 [backend] info: [selectApi] Received GET request on /api/select at 2024-07-01T07:15:22.965Z
+2024-07-01 16:15:22 [backend] info: [selectApi] Retrieved messages from database at 2024-07-01T07:15:22.968Z
+2024-07-01 16:15:23 [backend] info: [selectApi] Received GET request on /api/select at 2024-07-01T07:15:23.106Z
+2024-07-01 16:15:23 [backend] info: [selectApi] Retrieved messages from database at 2024-07-01T07:15:23.110Z

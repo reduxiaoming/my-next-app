@@ -1,0 +1,12 @@
+2024-06-28T10:38:14.268Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:38:14.264Z
+2024-06-28T10:38:14.876Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:38:14.873Z
+2024-06-28T10:38:15.214Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:38:15.211Z
+2024-06-28T10:38:15.340Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:38:15.337Z
+2024-06-28T10:38:15.484Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:38:15.480Z
+2024-06-28T10:38:15.614Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:38:15.611Z
+2024-06-28T10:38:15.764Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:38:15.761Z
+2024-06-28T10:39:10.713Z [backend] info: [useEffect] Loaded insert.html at 2024-06-28T10:39:10.710Z
+2024-06-28T10:39:16.530Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:39:16.528Z
+2024-06-28T10:43:50.395Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:43:50.392Z
+2024-06-28T10:43:52.442Z [backend] info: [useEffect] Loaded insert.html at 2024-06-28T10:43:52.436Z
+2024-06-28T10:43:56.142Z [backend] error: [handleSubmit] Error submitting message: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON at 2024-06-28T10:43:56.140Z
