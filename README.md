@@ -61,6 +61,9 @@ API_BASE_URL=http://localhost:3001/api</code></pre>
         <p>4.选择Node.js:Frontend</p>
         <p>5.点击绿色播放▶按钮,启动前台服务器</p>
     </div>
+    <div class="markdown-heading">
+        <h2 class="heading-element">项目目录</h2>
+    </div>
 <pre><code><span>my</span>-<span>next</span>-app/
 ├── backend/              <span># 后端代码</span>
 │   ├── dbexec/           <span># 数据库执行文件</span>
