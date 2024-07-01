@@ -21,14 +21,12 @@
     </div>
     <p dir="auto">首先，从 GitHub 克隆项目仓库：</p>
     <pre><code>git <span>clone</span> https://github.com/xiaoxiaoxiaoxiaoming/my-next-app.git
-cd  my-next-app
-    </code></div></div></pre>
+cd  my-next-app</code></div></div></pre>
     <div class="markdown-heading" dir="auto">
         <h2 tabindex="-1" class="heading-element" dir="auto">环境配置</h2>
     </div>
     <p dir="auto">在项目根目录下确认 <code>.env
-</code>文件存在，如果不存在添加以下内容：</p><pre><code>
-    #backend
+</code>文件存在，如果不存在添加以下内容：</p><pre><code>#backend
     DATABASE_USER=YOUR_DATABASE_USER
     DATABASE_HOST=YOUR_DATABASE_HOST
     DATABASE_NAME=YOUR_DATABASE_NAME
