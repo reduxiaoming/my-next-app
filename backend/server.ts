@@ -5,6 +5,7 @@ import logRoutes from './routes/logRoutes';
 import { PORT, ORIGIN } from './utils/config';  
 import createScreenLogger from './utils/logger';
 import sequelize from './dbexec/dbaccess';
+import initDB from './utils/dbInit'; // 引入数据库初始化脚本
 
 // 创建日志记录器
 const logger = createScreenLogger('server', true);
@@ -22,8 +23,12 @@ app.use(express.json());
 app.use('/api', routes);
 app.use('/api', logRoutes);
 
-// 同步数据库并启动服务器
-sequelize.sync()
+// 初始化数据库
+initDB()
+  .then(() => {
+    // 同步数据库并启动服务器
+    return sequelize.sync();
+  })
   .then(() => {
     logger.info('Database & tables created!');
     console.log('Database & tables created!');
