@@ -21,7 +21,7 @@
     </div>
     <p dir="auto">首先，从 GitHub 克隆项目仓库：</p>
     <pre><code>git <span>clone</span> https://github.com/xiaoxiaoxiaoxiaoming/my-next-app.git
-    <span>cd</span> my-next-app
+    cd  my-next-app
     </code></div></div></pre>
     <div class="markdown-heading" dir="auto">
         <h2 tabindex="-1" class="heading-element" dir="auto">环境配置</h2>
@@ -65,13 +65,13 @@
     <ol dir="auto">
         <li>启动后端：</li>
     </ol>
-    <pre><code><span>cd</span> backend
+    <pre><code>cd  backend
     npx ts-node server.ts
     </code></div></div></pre>
     <ol start="2" dir="auto">
         <li>启动前端：</li>
     </ol>
-    <pre><code><span>cd</span> frontend
+    <pre><code>cd  frontend
     npm run dev
     </code></div></div></pre>
     <div class="markdown-heading" dir="auto">
