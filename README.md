@@ -1,23 +1,23 @@
-<div class="markdown prose w-full break-words">
-  <h1>My Next App</h1>
-  <p>这是一个基于 Next.js 和 Node.js 的全栈项目，使用 PostgreSQL 作为数据库。以下是构建和运行该项目的详细步骤。</p>
-  <h2>前提条件</h2>
-  <ol>
+<div dir="auto">
+  <div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto">My Next App</h1><a id="user-content-my-next-app" class="anchor" aria-label="Permalink: My Next App" href="#my-next-app"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">这是一个基于 Next.js 和 Node.js 的全栈项目，使用 PostgreSQL 作为数据库。以下是构建和运行该项目的详细步骤。</p>
+  <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">前提条件</h2><a id="user-content-前提条件" class="anchor" aria-label="Permalink: 前提条件" href="#前提条件"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <ol dir="auto">
     <li>
       <strong>操作系统</strong>: Windows 10 或更高版本</li>
     <li>
       <strong>Node.js</strong>: 需要安装 Node.js（建议使用 LTS 版本）。可以从
-      <a rel="noreferrer" target="_new" href="https://nodejs.org/">Node.js 官方网站</a>下载并安装。</li>
+      <a href="https://nodejs.org/" rel="nofollow">Node.js 官方网站</a>下载并安装。</li>
     <li>
       <strong>PostgreSQL</strong>: 需要安装 PostgreSQL 数据库。可以从
-      <a rel="noreferrer" target="_new" href="https://www.postgresql.org/download/">PostgreSQL 官方网站</a>下载并安装。</li>
+      <a href="https://www.postgresql.org/download/" rel="nofollow">PostgreSQL 官方网站</a>下载并安装。</li>
   </ol>
-  <h2>克隆项目</h2>
-  <p>首先，从 GitHub 克隆项目仓库：</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span></span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewbox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg></button></span></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-">git <span class="hljs-built_in">clone</span> https://github.com/xiaoxiaoxiaoxiaoming/my-next-app.git
-<span class="hljs-built_in">cd</span> my-next-app
+  <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">克隆项目</h2><a id="user-content-克隆项目" class="anchor" aria-label="Permalink: 克隆项目" href="#克隆项目"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">首先，从 GitHub 克隆项目仓库：</p><pre><div dir="auto"><div dir="auto"><span></span><div dir="auto"><span></span></div></div><div dir="ltr"><code>git <span>clone</span> https://github.com/xiaoxiaoxiaoxiaoming/my-next-app.git
+<span>cd</span> my-next-app
 </code></div></div></pre>
-  <h2>环境配置</h2>
-  <p>在项目根目录下确认 <code>.env</code> 文件存在，如果不存在添加以下内容：</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewbox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg></button></span></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-makefile">
+  <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">环境配置</h2><a id="user-content-环境配置" class="anchor" aria-label="Permalink: 环境配置" href="#环境配置"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">在项目根目录下确认 <code>.env</code> 文件存在，如果不存在添加以下内容：</p><pre><div dir="auto"><div dir="auto"><div dir="auto"><span></span></div></div><div dir="ltr"><code>
 #backend
 DATABASE_USER=YOUR_DATABASE_USER
 DATABASE_HOST=YOUR_DATABASE_HOST
@@ -27,73 +27,58 @@ DATABASE_PORT=YOUR_DATABASE_PORT
 LOG_LEVEL=info
 PORT=3001
 ORIGIN=http://localhost:3000
-
-#frontend
+</code><p dir="auto"><code>#frontend
 NODE_ENV=development
-API_BASE_URL=http://localhost:3001/api
+API_BASE_URL=<a href="http://localhost:3001/api" rel="nofollow">http://localhost:3001/api</a>
+</code></p></div></div></pre><p dir="auto"></p>
+  <p dir="auto">确保 PostgreSQL 数据库已经启动，并且上述配置与您的数据库设置相匹配。</p>
+  <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">安装依赖</h2><a id="user-content-安装依赖" class="anchor" aria-label="Permalink: 安装依赖" href="#安装依赖"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">在克隆的项目目录中，安装所需的依赖包：</p><pre><div dir="auto"><div dir="auto"><span></span><div dir="auto"><span></span></div></div><div dir="ltr"><code>npm install
 </code></div></div></pre>
-  <p>确保 PostgreSQL 数据库已经启动，并且上述配置与您的数据库设置相匹配。</p>
-  <h2>安装依赖</h2>
-  <p>在克隆的项目目录中，安装所需的依赖包：</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span></span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewbox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg></button></span></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-">npm install
+  <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">数据库初始化</h2><a id="user-content-数据库初始化" class="anchor" aria-label="Permalink: 数据库初始化" href="#数据库初始化"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">在第一次运行项目之前，需要初始化数据库。确保 PostgreSQL 已经运行，然后执行以下命令：</p><pre><div dir="auto"><div dir="auto"><span></span><div dir="auto"><span></span></div></div><div dir="ltr"><code>npx ts-node backend/utils/dbInit.ts
 </code></div></div></pre>
-  <h2>数据库初始化</h2>
-  <p>在第一次运行项目之前，需要初始化数据库。确保 PostgreSQL 已经运行，然后执行以下命令：</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span></span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewbox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg></button></span></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-">npx ts-node backend/utils/dbInit.ts
-</code></div></div></pre>
-  <h2>运行项目</h2>
-  <h3>分别启动前后端</h3>
-  <ol>
+  <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">运行项目</h2><a id="user-content-运行项目" class="anchor" aria-label="Permalink: 运行项目" href="#运行项目"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">分别启动前后端</h3><a id="user-content-分别启动前后端" class="anchor" aria-label="Permalink: 分别启动前后端" href="#分别启动前后端"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <ol dir="auto">
     <li>启动后端：</li>
-  </ol><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span></span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewbox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg></button></span></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-"><span class="hljs-built_in">cd</span> backend
+  </ol><pre><div dir="auto"><div dir="auto"><span></span><div dir="auto"><span></span></div></div><div dir="ltr"><code><span>cd</span> backend
 npx ts-node server.ts
 </code></div></div></pre>
-  <ol start="2">
+  <ol start="2" dir="auto">
     <li>启动前端：</li>
-  </ol><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span></span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewbox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg></button></span></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-"><span class="hljs-built_in">cd</span> frontend
+  </ol><pre><div dir="auto"><div dir="auto"><span></span><div dir="auto"><span></span></div></div><div dir="ltr"><code><span>cd</span> frontend
 npm run dev
 </code></div></div></pre>
-  <h3>一起启动前后端</h3>
-  <p>为了便于调试，也可以一起启动前后端：</p><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span></span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewbox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg></button></span></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-">npm run dev
+  <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">一起启动前后端</h3><a id="user-content-一起启动前后端" class="anchor" aria-label="Permalink: 一起启动前后端" href="#一起启动前后端"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">为了便于调试，也可以一起启动前后端：</p><pre><div dir="auto"><div dir="auto"><span></span><div dir="auto"><span></span></div></div><div dir="ltr"><code>npm run dev
 </code></div></div></pre>
-  <h2>项目结构</h2><pre><div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"><div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span></span><div class="flex items-center"><span class="" data-state="closed"><button class="flex gap-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewbox="0 0 24 24" class="icon-sm"><path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"></path></svg></button></span></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-"><span class="hljs-keyword">my</span>-<span class="hljs-keyword">next</span>-app/
-├── backend/              <span class="hljs-comment"># 后端代码</span>
-│   ├── dbexec/           <span class="hljs-comment"># 数据库执行文件</span>
-│   ├── models/           <span class="hljs-comment"># 数据模型</span>
-│   ├── routes/           <span class="hljs-comment"># 路由</span>
-│   ├── service/          <span class="hljs-comment"># 服务层</span>
-│   ├── utils/            <span class="hljs-comment"># 工具类</span>
-│   ├── server.ts         <span class="hljs-comment"># 后端服务器入口</span>
-│   └── ...               <span class="hljs-comment"># 其他后端相关文件</span>
-├── frontend/             <span class="hljs-comment"># 前端代码</span>
-│   ├── pages/            <span class="hljs-comment"># 页面文件</span>
-│   ├── public/           <span class="hljs-comment"># 静态资源</span>
-│   ├── styles/           <span class="hljs-comment"># 样式文件</span>
-│   ├── ...               <span class="hljs-comment"># 其他前端相关文件</span>
-├── .env                  <span class="hljs-comment"># 环境配置文件</span>
-├── package.json          <span class="hljs-comment"># 项目配置文件</span>
-├── tsconfig.json         <span class="hljs-comment"># TypeScript 配置文件</span>
-└── ...                   <span class="hljs-comment"># 其他项目相关文件</span>
+  <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">项目结构</h2><a id="user-content-项目结构" class="anchor" aria-label="Permalink: 项目结构" href="#项目结构"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div><pre><div dir="auto"><div dir="auto"><span></span><div dir="auto"><span></span></div></div><div dir="ltr"><code><span>my</span>-<span>next</span>-app/
+├── backend/              <span># 后端代码</span>
+│   ├── dbexec/           <span># 数据库执行文件</span>
+│   ├── models/           <span># 数据模型</span>
+│   ├── routes/           <span># 路由</span>
+│   ├── service/          <span># 服务层</span>
+│   ├── utils/            <span># 工具类</span>
+│   ├── server.ts         <span># 后端服务器入口</span>
+│   └── ...               <span># 其他后端相关文件</span>
+├── frontend/             <span># 前端代码</span>
+│   ├── pages/            <span># 页面文件</span>
+│   ├── public/           <span># 静态资源</span>
+│   ├── styles/           <span># 样式文件</span>
+│   ├── ...               <span># 其他前端相关文件</span>
+├── .env                  <span># 环境配置文件</span>
+├── package.json          <span># 项目配置文件</span>
+├── tsconfig.json         <span># TypeScript 配置文件</span>
+└── ...                   <span># 其他项目相关文件</span>
 </code></div></div></pre>
-  <h2>常见问题</h2>
-  <h3>端口冲突</h3>
-  <p>如果遇到端口冲突问题，可以在 <code>.env</code> 文件中修改 <code>PORT</code> 和 <code>ORIGIN</code> 的值，以使用不同的端口。</p>
-  <h3>数据库连接失败</h3>
-  <p>如果数据库连接失败，请检查 <code>.env</code> 文件中的数据库配置是否正确，并确保 PostgreSQL 数据库已经启动。</p>
-  <h2>贡献</h2>
-  <p>欢迎贡献代码！请 fork 本仓库并提交 pull request。</p>
-  <h2>许可证</h2>
-  <p>本项目采用 MIT 许可证。</p>
-  <hr>
-  <p>请将上述内容复制到你的 <code>README.md</code> 文件中。 ​
-    <span class="" data-state="closed">
-      <button>
-        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 19 15" fill="none" class="-mt-0.5 ml-0.5 inline-block text-token-link hover:text-token-link-hover" width="19" height="15">
-          <path d="M4.42 0.75H2.8625H2.75C1.64543 0.75 0.75 1.64543 0.75 2.75V11.65C0.75 12.7546 1.64543 13.65 2.75 13.65H2.8625C2.8625 13.65 2.8625 13.65 2.8625 13.65C2.8625 13.65 4.00751 13.65 4.42 13.65M13.98 13.65H15.5375H15.65C16.7546 13.65 17.65 12.7546 17.65 11.65V2.75C17.65 1.64543 16.7546 0.75 15.65 0.75H15.5375H13.98" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          </path>
-          <path d="M5.55283 4.21963C5.25993 3.92674 4.78506 3.92674 4.49217 4.21963C4.19927 4.51252 4.19927 4.9874 4.49217 5.28029L6.36184 7.14996L4.49217 9.01963C4.19927 9.31252 4.19927 9.7874 4.49217 10.0803C4.78506 10.3732 5.25993 10.3732 5.55283 10.0803L7.95283 7.68029C8.24572 7.3874 8.24572 6.91252 7.95283 6.61963L5.55283 4.21963Z" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round">
-          </path>
-          <path d="M9.77753 8.75003C9.3357 8.75003 8.97753 9.10821 8.97753 9.55003C8.97753 9.99186 9.3357 10.35 9.77753 10.35H13.2775C13.7194 10.35 14.0775 9.99186 14.0775 9.55003C14.0775 9.10821 13.7194 8.75003 13.2775 8.75003H9.77753Z" fill="currentColor" stroke="currentColor" stroke-width="0.1">
-          </path>
-        </svg>
-      </button>
-    </span>​</p>
+  <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">常见问题</h2><a id="user-content-常见问题" class="anchor" aria-label="Permalink: 常见问题" href="#常见问题"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">端口冲突</h3><a id="user-content-端口冲突" class="anchor" aria-label="Permalink: 端口冲突" href="#端口冲突"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">如果遇到端口冲突问题，可以在 <code>.env</code> 文件中修改 <code>PORT</code> 和 <code>ORIGIN</code> 的值，以使用不同的端口。</p>
+  <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto">数据库连接失败</h3><a id="user-content-数据库连接失败" class="anchor" aria-label="Permalink: 数据库连接失败" href="#数据库连接失败"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">如果数据库连接失败，请检查 <code>.env</code> 文件中的数据库配置是否正确，并确保 PostgreSQL 数据库已经启动。</p>
+  <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">贡献</h2><a id="user-content-贡献" class="anchor" aria-label="Permalink: 贡献" href="#贡献"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">欢迎贡献代码！请 fork 本仓库并提交 pull request。</p>
+  <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto">许可证</h2><a id="user-content-许可证" class="anchor" aria-label="Permalink: 许可证" href="#许可证"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+  <p dir="auto">本项目采用 MIT 许可证。</p>
 </div>
