@@ -4,8 +4,12 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const API_BASE_URL = process.env.API_BASE_URL;
+
+export const LOG_LEVEL = process.env.LOG_LEVEL;
+
 export const ORIGIN = process.env.ORIGIN;
 export const PORT = process.env.PORT;
+
 export const DATABASE_USER = process.env.DATABASE_USER;
 export const DATABASE_HOST = process.env.DATABASE_HOST;
 export const DATABASE_NAME = process.env.DATABASE_NAME;
