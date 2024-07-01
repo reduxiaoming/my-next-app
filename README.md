@@ -55,25 +55,13 @@ API_BASE_URL=http://localhost:3001/api</code></pre>
         <h2 class="heading-element">运行项目</h2>
     </div>
     <div class="markdown-heading">
-        <h3 class="heading-element">分别启动前后端</h3>
-    </div>
-    <ol>
-        <li>启动后端：</li>
-    </ol>
-<pre><code>cd backend
-npx ts-node server.ts</code></pre>
-    <ol start="2">
-        <li>启动前端：</li>
-    </ol>
-<pre><code>cd frontend
-npm run dev</code></pre>
-    <div class="markdown-heading">
-        <h3 class="heading-element">一起启动前后端</h3>
-    </div>
-    <p>为了便于调试，也可以一起启动前后端：</p>
-<pre><code>npm run dev</code></pre>
-    <div class="markdown-heading">
-        <h2 class="heading-element">项目结构</h2>
+        <h3 class="heading-element">找到Run and Debug(Ctrl+Shift+D)</h3>
+        <h3 class="heading-element">选择Node.js:Backend</h3>
+        <h3 class="heading-element">点击绿色播放▶按钮</h3>
+        <h3 class="heading-element">启动后台服务器</h3>
+        <h3 class="heading-element">选择Node.js:Frontend</h3>
+        <h3 class="heading-element">点击绿色播放▶按钮</h3>
+        <h3 class="heading-element">启动前台服务器</h3>
     </div>
 <pre><code><span>my</span>-<span>next</span>-app/
 ├── backend/              <span># 后端代码</span>
