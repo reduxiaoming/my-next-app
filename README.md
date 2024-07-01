@@ -36,7 +36,6 @@ DATABASE_PORT=YOUR_DATABASE_PORT
 LOG_LEVEL=info
 PORT=3001
 ORIGIN=http://localhost:3000
-
 #frontend
 NODE_ENV=development
 API_BASE_URL=http://localhost:3001/api</code></pre>
