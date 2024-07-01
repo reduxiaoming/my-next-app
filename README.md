@@ -47,11 +47,6 @@ API_BASE_URL=http://localhost:3001/api</code></pre>
     <p>在克隆的项目目录中，安装所需的依赖包：</p>
 <pre><code>npm install</code></pre>
     <div class="markdown-heading">
-        <h2 class="heading-element">数据库初始化</h2>
-    </div>
-    <p>在第一次运行项目之前，需要初始化数据库。确保 PostgreSQL 已经运行，然后执行以下命令：</p>
-<pre><code>npx ts-node backend/utils/dbInit.ts</code></pre>
-    <div class="markdown-heading">
         <h2 class="heading-element">运行项目</h2>
     </div>
     <div class="markdown-heading">
