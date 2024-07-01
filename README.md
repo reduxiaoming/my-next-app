@@ -55,13 +55,11 @@ API_BASE_URL=http://localhost:3001/api</code></pre>
         <h2 class="heading-element">运行项目</h2>
     </div>
     <div class="markdown-heading">
-        <p>找到Run and Debug(Ctrl+Shift+D)</p>
-        <p>选择Node.js:Backend</h3>
-        <p>点击绿色播放▶按钮</p>
-        <p>启动后台服务器</p>
-        <p>选择Node.js:Frontend</p>
-        <p>点击绿色播放▶按钮</p>
-        <p>启动前台服务器</p>
+        <p>1.找到Run and Debug(Ctrl+Shift+D)</p>
+        <p>2.选择Node.js:Backend</h3>
+        <p>3.点击绿色播放▶按钮,启动后台服务器</p>
+        <p>4.选择Node.js:Frontend</p>
+        <p>5.点击绿色播放▶按钮,启动前台服务器</p>
     </div>
 <pre><code><span>my</span>-<span>next</span>-app/
 ├── backend/              <span># 后端代码</span>
