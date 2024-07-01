@@ -27,18 +27,17 @@ cd  my-next-app</code></div></div></pre>
     </div>
     <p dir="auto">在项目根目录下确认 <code>.env
 </code>文件存在，如果不存在添加以下内容：</p><pre><code>#backend
-    DATABASE_USER=YOUR_DATABASE_USER
-    DATABASE_HOST=YOUR_DATABASE_HOST
-    DATABASE_NAME=YOUR_DATABASE_NAME
-    DATABASE_PASSWORD=YOU_DATABASER_PASSWORD
-    DATABASE_PORT=YOUR_DATABASE_PORT
-    LOG_LEVEL=info
-    PORT=3001
-    ORIGIN=http://localhost:3000
+DATABASE_USER=YOUR_DATABASE_USER
+DATABASE_HOST=YOUR_DATABASE_HOST
+DATABASE_NAME=YOUR_DATABASE_NAME
+DATABASE_PASSWORD=YOU_DATABASER_PASSWORD
+DATABASE_PORT=YOUR_DATABASE_PORT
+LOG_LEVEL=info
+PORT=3001
+ORIGIN=http://localhost:3000
     </code><p dir="auto"><code>#frontend
-    NODE_ENV=development
-    API_BASE_URL=<a href="http://localhost:3001/api" rel="nofollow">http://localhost:3001/api</a>
-    </code></p></div></div></pre>
+NODE_ENV=development
+API_BASE_URL=http://localhost:3001/api</code></p></div></div></pre>
     <p dir="auto"></p>
     <p dir="auto">确保 PostgreSQL 数据库已经启动，并且上述配置与您的数据库设置相匹配。</p>
     <div class="markdown-heading" dir="auto">
