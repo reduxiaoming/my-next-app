@@ -12,8 +12,9 @@
     "resolveJsonModule": true,
     "noEmit": true,
     "jsx": "react",
-    "experimentalDecorators": true, // 启用实验装饰器支持
-    "emitDecoratorMetadata": true  // 启用元数据装饰器支持
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true
   },
   "include": ["backend/**/*", "frontend/**/*"],
   "exclude": ["node_modules", "dist"]
