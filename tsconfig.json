@@ -11,10 +11,15 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "noEmit": true,
-    "jsx": "react",
-    "experimentalDecorators": true, // 启用实验装饰器支持
-    "emitDecoratorMetadata": true  // 启用元数据装饰器支持
+    "jsx": "preserve",
+    "experimentalDecorators": true, 
+    "emitDecoratorMetadata": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "sourceMap": true
   },
-  "include": ["backend/**/*", "frontend/**/*"],
+  "include": ["backend/**/*", "frontend/**/*", "next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"]
 }
