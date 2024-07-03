@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // 导入 Bootstrap 样式
 import '../styles/globals.css'; // 导入全局样式
 
 class MyApp extends App<AppProps> {
+  // 获取初始属性
   static async getInitialProps({ Component, ctx }: AppContext) {
     let pageProps = {};
 
@@ -15,6 +16,7 @@ class MyApp extends App<AppProps> {
     return { pageProps };
   }
 
+  // 渲染组件
   render() {
     const { Component, pageProps } = this.props;
 

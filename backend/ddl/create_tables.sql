@@ -5,5 +5,3 @@ CREATE TABLE IF NOT EXISTS messages (
     user_id VARCHAR(255),
     timestamp TIMESTAMP WITH TIME ZONE
 );
-
--- 其他DDL语句可以放在这里
