@@ -15,6 +15,7 @@ module.exports = {
                 net: false,
                 tls: false,
             };
+            config.devtool = 'source-map';
         }
         return config;
     },
